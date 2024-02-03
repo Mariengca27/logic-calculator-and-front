@@ -1,0 +1,60 @@
+#calculator-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+#display-screen {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#buttons-numbers-operations {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+#digit-one {}
+
+#digit-two {}
+
+#digit-three {}
+
+#digit-four {}
+
+#digit-five {}
+
+#digit-six {}
+
+#digit-seven {}
+
+#digit-eight {}
+
+#digit-nine {}
+
+#digit-zero {}
+
+#operation-add {}
+
+#operation-subtract {}
+
+#operation-multiply {}
+
+#operation-divide {}
+
+#operation-equal {}
+
+#operation-clear {}
+
+#operation-scientific {
+    grid-column: 1 / span 4;
+
+
+}
