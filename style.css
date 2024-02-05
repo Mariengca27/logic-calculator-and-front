@@ -7,7 +7,7 @@
 }
 
 #display-screen {
-    width: 100%;
+    width: 90%;
     height: 50px;
     margin-bottom: 10px;
     text-align: center;
@@ -21,40 +21,32 @@
     grid-gap: 10px;
 }
 
-#digit-one {}
-
-#digit-two {}
-
-#digit-three {}
-
-#digit-four {}
-
-#digit-five {}
-
-#digit-six {}
-
-#digit-seven {}
-
-#digit-eight {}
-
-#digit-nine {}
-
-#digit-zero {}
-
-#operation-add {}
-
-#operation-subtract {}
-
-#operation-multiply {}
-
-#operation-divide {}
-
-#operation-equal {}
-
-#operation-clear {}
-
 #operation-scientific {
     grid-column: 1 / span 4;
 
 
+}
+#plusImage{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    position:absolute;
+}
+#minusImage{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    position:absolute;
+}
+#multiplyImage{
+    width: 40px;
+    height: 40px;
+    margin-top: 70px;
+    position:absolute;
+}
+#divideImage{
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    position:absolute;
 }
